@@ -29,7 +29,17 @@ const Index = () => {
           <Image src="https://images.unsplash.com/photo-1585049303349-6680e6179692?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxtYWtldXAlMjB0dXRvcmlhbHxlbnwwfHx8fDE3MTczNjI2ODJ8MA&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="md" alt="Makeup Tutorial" mb={4} />
           <Text fontSize="md">Follow our step-by-step makeup tutorials to achieve stunning looks for any occasion. From everyday makeup to glamorous evening looks, we've got you covered.</Text>
         </Box>
-        <HStack spacing={4} justify="center">
+        <Box>
+          <Heading as="h2" size="lg" mb={4}>
+            Beauty Photos
+          </Heading>
+          <VStack spacing={4}>
+            <Image src="https://images.unsplash.com/photo-1514996937319-344454492b37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxibGVuZGVyfGVufDB8fHx8MTcxNzM2MjY4MXww&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="md" alt="Beauty Photo 1" />
+            <Image src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxibGVuZGVyfGVufDB8fHx8MTcxNzM2MjY4MXww&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="md" alt="Beauty Photo 2" />
+            <Image src="https://images.unsplash.com/photo-1516728778615-2d590ea1856f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxibGVuZGVyfGVufDB8fHx8MTcxNzM2MjY4MXww&ixlib=rb-4.0.3&q=80&w=1080" borderRadius="md" alt="Beauty Photo 3" />
+          </VStack>
+        </Box>
+        <HStack spacing={4} justify="center" mt={8}>
           <IconButton aria-label="Facebook" icon={<FaFacebook />} size="lg" />
           <IconButton aria-label="Twitter" icon={<FaTwitter />} size="lg" />
           <IconButton aria-label="Instagram" icon={<FaInstagram />} size="lg" />
